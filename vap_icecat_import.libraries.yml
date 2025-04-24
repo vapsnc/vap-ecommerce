@@ -1,0 +1,29 @@
+icecat_checker:
+  version: 1.x
+  css:
+    theme:
+      css/vap_icecat_import.css: {}
+  js:
+    js/icecat_checker.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/once
+
+icecat-check:
+  js:
+    js/icecat-check.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/once
+
+seleziona_tutto:
+  js:
+    js/seleziona_tutto.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

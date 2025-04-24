@@ -1,0 +1,7 @@
+name: 'VAP Icecat Import'
+type: module
+description: 'Importazione prodotti da CSV e anteprima con verifica EAN su Icecat.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:system

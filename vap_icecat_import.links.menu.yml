@@ -1,0 +1,6 @@
+vap_icecat_import.import_form:
+  title: 'Importa Prodotti'
+  description: 'Importa prodotti da file CSV'
+  parent: system.admin_config
+  route_name: vap_icecat_import.import_form
+  weight: 100

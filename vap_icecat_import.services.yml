@@ -1,0 +1,3 @@
+services:
+  vap_icecat_import.import_service:
+    class: Drupal\vap_icecat_import\Service\ImportService

@@ -1,0 +1,23 @@
+vap_icecat_import.import_form:
+  path: '/admin/vap/import'
+  defaults:
+    _form: '\Drupal\vap_icecat_import\Form\ImportForm'
+    _title: 'Importazione CSV'
+  requirements:
+    _permission: 'administer site configuration'
+
+vap_icecat_import.import_preview:
+  path: '/admin/vap/import/preview'
+  defaults:
+    _form: '\Drupal\vap_icecat_import\Form\ImportPreviewForm'
+    _title: 'Anteprima Importazione'
+  requirements:
+    _permission: 'administer site configuration'
+
+vap_icecat_import.check_icecat:
+  path: '/admin/vap/import/check-icecat'
+  defaults:
+    _controller: '\Drupal\vap_icecat_import\Controller\IcecatCheckController::check'
+    _title: 'Verifica Icecat'
+  requirements:
+    _permission: 'access content'
